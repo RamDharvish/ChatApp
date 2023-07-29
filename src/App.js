@@ -1,9 +1,10 @@
 import React from 'react'
-import Main from './Components/NetFlix/Main'
+import StopWatch from './Components/STOP WATCH/StopWatch'
+
 function App() {
   return (
     <div>
-      <Main/>
+      <StopWatch/>
     </div>
   )
 }
