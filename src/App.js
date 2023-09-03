@@ -1,11 +1,16 @@
 import React from 'react'
-import StopWatch from './Components/STOP WATCH/StopWatch'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Routess from './Components/Shopping-Cart/Routes/Routes'
+import { Provider } from 'react-redux'
+import Store from './Components/Shopping-Cart/Redux/Store'
 
 function App() {
   return (
+    <Provider store={Store}>
     <div>
-      <StopWatch/>
+     <Routess/>
     </div>
+    </Provider>
   )
 }
 

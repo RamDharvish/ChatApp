@@ -1,0 +1,8 @@
+.border-radius-9 {
+     border-radius: 9px;
+}
+.card {
+    width: 300px;
+    align-items: center;
+    cursor: pointer;
+}
