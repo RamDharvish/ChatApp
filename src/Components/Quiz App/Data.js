@@ -331,6 +331,28 @@ const data = [
     },
     {
         id: 16,
+        question: "100 + 9000",
+        answer: [
+            {
+                text: "9100",
+                correct: true
+            },
+            {
+                text: "10000",
+                correct: false
+            },
+            {
+                text: "9010",
+                correct: false
+            },
+            {
+                text: "9000",
+                correct: false
+            },
+        ]
+    },
+    {
+        id: 17,
         question: "select the True answer",
         answer: [
             {

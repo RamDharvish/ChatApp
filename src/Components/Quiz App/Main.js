@@ -28,6 +28,7 @@ const[userName,setUserName]=useState(null)
       { id: 14, amount: "$ 250000" },
       { id: 15, amount: "$ 500000" },
       { id: 16, amount: "$ 1000000" },
+      { id: 17, amount: "Last Main Question" },
     ].reverse(),
   []) 
 
