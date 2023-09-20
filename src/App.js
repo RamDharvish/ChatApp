@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from './Millionaire/Main'
+import Main from './ChatApp/Main'
 
 
 
