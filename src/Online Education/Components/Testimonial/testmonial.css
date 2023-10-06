@@ -1,0 +1,38 @@
+.testimonial__content h2 {
+    font-weight: 600;
+  }
+  /* Add these styles to your testmonial.css file */
+.testimonial__content {
+  /* Add padding and background color to the testimonial content */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.single__testimonial {
+  /* Add margin between individual testimonials */
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #007bff; /* Change the button color */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #0056b3; /* Change the button color on hover */
+}
+
+/* Style the dots (pagination) */
+.slick-dots li button {
+  font-size: 12px;
+  color: #007bff; /* Change the dot color */
+}
+
+.slick-dots li.slick-active button {
+  color: #0056b3; /* Change the active dot color */
+}

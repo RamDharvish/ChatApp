@@ -1,13 +1,14 @@
 import React from 'react'
-import Main from './ChatApp/Main'
+import Home from './Online Education/Pages/Home'
+
 
 
 
 function App() {
   return (
- <>
-<Main/>
- </>
+    <div>
+     <Home/>
+    </div>
   )
 }
 
